@@ -1,0 +1,94 @@
+/* Сброс */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Страница */
+
+body{
+
+    background:#e8edf3;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+/* Контейнер карты */
+
+.map-container{
+
+    position:relative;
+
+    width:95vw;
+
+    max-width:1600px;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.25);
+
+}
+
+/* Карта */
+
+.map-image{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+}
+
+/* Сетка */
+
+.grid{
+
+    position:absolute;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    grid-template-rows:repeat(4,1fr);
+
+}
+
+/* Клетка */
+
+.cell{
+
+    border:1px solid rgba(255,255,255,.20);
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+/* Наведение */
+
+.cell:hover{
+
+    background:rgba(0,255,0,.18);
+
+}
