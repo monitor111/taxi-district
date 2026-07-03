@@ -60,6 +60,14 @@ body{
 
 }
 
+.map-wrapper{
+
+    position:relative;
+
+    display:inline-block;
+
+}
+
 /* Карта */
 
 .map-image{
