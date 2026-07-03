@@ -16,12 +16,12 @@ for (let row = 1; row <= rows; row++) {
 
         cell.addEventListener('click', function () {
 
-            alert(
-                'Клетка: ' +
-                row +
-                ' x ' +
-                col
-            );
+            // alert(
+            //     'Клетка: ' +
+            //     row +
+            //     ' x ' +
+            //     col
+            // );
 
         });
 
